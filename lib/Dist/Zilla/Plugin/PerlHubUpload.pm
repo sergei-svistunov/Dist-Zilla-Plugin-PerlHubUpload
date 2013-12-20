@@ -77,12 +77,10 @@ sub _run_cmd {
     my ($self, $cmd, $desc, $error) = @_;
 
     $self->log("$desc:");
-    print STDERR "$cmd\n";
     open(my $fh, "$cmd |") || $self->log_fatal('Cannot run `$cmd`: $!');
     while (<$fh>) {
         chomp;
         $self->log("  $_");
-        print STDERR "  $_\n";
     }
     close($fh);
 
