@@ -1,4 +1,10 @@
-libdist-zilla-plugin-perlhubupload-perl (0.001) unstable; urgency=low
+libdist-zilla-plugin-perlhubupload-perl (0.002) saucy; urgency=low
+
+  * Removed debug
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Fri, 20 Dec 2013 20:55:30 +0400
+
+libdist-zilla-plugin-perlhubupload-perl (0.001) saucy; urgency=low
 
   * Initial Release.
 
